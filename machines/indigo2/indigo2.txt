@@ -1,0 +1,97 @@
+Silicon Graphics POWER Indigo 2
+===============================
+
+This Silicon Graphics POWER Indigo 2 is a high-end 64-bit
+single-processor UNIX workstation from 1994.
+
+The Indigo 2, launched in 1992, was the replacement for the 1991's
+Indigo and was Silicon Graphic's mid-range single-processor desktop
+workstation. It launched with the first mainstream 64-bit processor
+- the MIPS R4000 - in the distinctive teal coloured case you see
+here. Later models could be ordered with a MIPS R4400 processor,
+which had larger caches and higher clockspeeds. These early models
+came with a choice of three graphics cards:
+
+* XL Graphics - 1280x1024 at 76 Hz in 24-bit colour. Mostly a 2D
+card - any 3D calculations would be handled by your CPU.
+* XZ Graphics - the one I have. Comes on two full-length PCBs and
+includes two (later four) Geometry Engines that each give 32 MFLOPs
+and 250,000 triangles per second. They are joined by a Raster
+Engine processor and a Command Engine processor but, notably, there
+is no hardware Texture Mapping. Will it play GLQuake? No. Well,
+maybe, but all the walls would be flat colours. It's designed to do
+CAD
+* Extreme Graphics - the top-of-the-line option, coming on three
+PCBs. You get eight Geometry Engines giving you 256 MFLOPs. Still
+no hardware texture-mapping though.
+
+Video output on all three options is using a 13W3 connector, and so
+to use a VGA monitor you require an adapter.
+
+The R4400 was OK, but MIPS (which was bought out by Silicon
+Graphics in 1992) was worried that it was getting beaten by its
+competition (Alpha, PA-RISC, HyperSPARC, etc), especially in
+floating point calculations. Their answer to this was the MIPS
+R8000, launched in June 1994. Despite clocking at only 75 MHz, its
+wide architecture allowed it to perform up to 300 million
+floating-point instructions per second (MFLOPS). This CPU was so
+powerful, SGI claimed that, with the same processor count, an R8000
+machine had the same performance as a Cray Y-MP supercomputer from
+1988. The price for this performance was steep, although was
+perhaps very reasonable compared to the price of a Cray. The CPU
+alone cost $2,5000, never mind the rest of the computer. This is
+(at least partly) because instead of being a single ceramic
+package, the CPU is in fact an A5-sized PCB covered in many large
+(and hot) ICs. It worked though, and by November 1994 (less than
+six months after launch), 50 of the world's Top 500 fastest
+computers were SGI POWER Challenge or SGI POWER Onyx servers using
+the R8000 processor. Looking at the list, the lowest placed POWER
+Challenge was in position 439 and was a six-processor machine owned
+by Volvo. As it happened, SGI ended up buying Cray in 1996.
+
+Naturally, computers have moved on somewhat in the last ~30 years,
+and the R8000 is out-performed (but not outclassed) by the ARM11
+CPU you get on a $10 Raspberry Pi Zero.
+
+The Indigo 2 was, for a short time and at an extraordinary price
+tag, available with a single instance of this the super-computer
+grade CPU. An R8000-equipped Indigo 2 is known in the marketing
+material as a "POWER Indigo 2", and that is what we have here. The
+short life-span of the POWER Indigo 2 was because the MIPS R10K
+arrived in January 1996, compensating for its lowly
+two-instructions-per-clock cycle FPU performance by having more
+than twice the clock speed of the R8000, and at a much lower price
+point. At about the same time as the R10K came out, the graphics
+sub-system in the Indigo 2 was upgraded from EXTREME Graphics to
+IMPACT Graphics, and the case colour was changed from teal to
+purple to mark this upgrade.
+
+The Centre for Computing History has many things in its archive,
+but it does not (last I checked) have a POWER Indigo 2. SGI Depot
+is perhaps the primary on-line resource for SGI spare parts and
+complete machines, and Ian there tells me he doesn't have a POWER
+Indigo 2 either. If he did have one to sell you, his price list
+says it'd cost you £1400. That's a lot, but it's also still a
+steep discount on the original list price of $75,000.
+
+I have no information about the history of this particular example,
+other than I acquired it from a lovely person called Kestral who I
+met on social media.
+
+This POWER Indigo 2 is running IRIX 6.2 from 1996, which is a
+little bit later than our machine (which would have shipped with
+IRIX 6.0), but a reasonable in-period upgrade.
+
+* Processor: MIPS R8000 at 75 MHz
+* Memory: 64 MB (640 MB max)
+* Chipset: IP26
+* Expansion: 2x 64-bit GIO64; 3x EISA
+* Hard Drive Fitted: 4 GB SCSI-2
+* Graphics: Silicon Graphics XZ
+* 3D Graphics Performance (shaded): 37 Mpx/sec (PlayStation gets
+  33 Mpx/sec)
+* 3D Graphics Performance (textured): N/A
+* Keyboard/Mouse: Standard PC-compatible PS/2 interface
+* OS: IRIX 6.2  
+* Desktop Environment: Indigo Magic Desktop
+* Exhibitor: JP

@@ -1,0 +1,32 @@
+HP 9000 Visualize C3000
+=======================
+
+This HP 9000 Visualize C3000 (from the 'C-series' family) is a high-end
+single-processor 64-bit UNIX workstation from 1999.
+
+Our C3000 is a later model than the B132L+, sporting a 64-bit PA-8500 processor,
+a couple of 64-bit/66 MHz PCI slots, and eight non-standard 278-pin DIMM slots
+that take 120 MHz ECC SDRAM modules. It would have been a direct competitor for
+our Sun Ultra 80.
+
+This example was actually a server for Virgin Media and only came out of service
+recently. A 3D graphics card was added by the vendor so I wouldn't be forced to
+use the serial console.
+
+It is running HP-UX 11.00 from 1996, which is probably what our machine
+should have shipped with and is the first 64-bit version of HP-UX. HP-UX
+11.00 came with only the Common Desktop Environment (CDE).
+
+* Processor: PA-RISC 8500 at 400 MHz
+* Memory: 2 GB (8 GB max)
+* Chipset: Astro
+* Expansion: 1x 64-bit/66 MHz PCI; 2x 64-bit/33 MHz PCI; 2x 32-bit/33 MHz PCI
+* Hard Drive Fitted: 9 GB Ultra Wide SCSI
+* Graphics: Visualize FX5Pro (64 MB)
+* 3D Graphics Performance (shaded): 179 Mpx/sec (NVIDIA Quadro gets 465 Mpx/sec)
+* 3D Graphics Performance (textured): 167 Mpx/sec (NVIDIA Quadro gets 199 Mpx/sec)
+* Keyboard/Mouse: USB
+* OS: HP-UX 11.00
+* Desktop Environment: CDE
+* Exhibitor: JP
+

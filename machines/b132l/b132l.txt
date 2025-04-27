@@ -1,0 +1,42 @@
+HP 9000 B132L+
+==============
+
+This Hewlett Packard Visualize B132L+ (from the 'B-series' family)
+is a mid-range single-processor 32-bit UNIX workstation, from 1996.
+
+HP launched the HP 9000 series in 1984, and initially used a range
+of processor architectures, before settling on HP's own PA-RISC
+architecture. The array of machines in the line-up is dizzying, but
+broadly there were servers and there were workstations. The HP 9000
+Series 700 workstations are perhaps the best known, partly because
+they also had a port of NeXTSTEP OS. HP gave up on numbers in 1995,
+and replaced the 700-series workstations with the Visualize
+B-series, C-series and J-series workstations. B-Series that we have
+was available at 132 MHz (our example), 160 MHz (the B160L) and 180
+MHz (the B180L) variants, with a choice of standard SCSI or
+high-voltage differential SCSI (you don't want that one). It has
+integrated 2D graphics, and so it a middling UNIX workstation,
+rather than a fire-breathing graphics powerhouse. It has six 72-pin
+SIMM slots and takes ECC RAM.
+
+This example was actually a server for Cable and Wireless and only
+came out of service recently. The video output has a 'VESA EVC' and
+the vendor thankfully included a VGA adapter.
+
+It is running HP-UX 10.20 from 1996, which is probably what our
+machine should have shipped with. HP-UX 10.20 came with both VUE
+and its replacement CDE. I've elected to install the former,
+because we've already got a few CDE machines and well, I mean just
+look at those strakes on the launcher panel!
+
+* Processor: PA-RISC 7300LC at 132 MHz
+* Memory: 128 MB (1.5 GB max)
+* Chipset: LASI
+* Expansion: 32-bit PCI; EISA
+* Hard Drive Fitted: 18 GB Ultra Wide SCSI
+* Graphics: Integrated Visualize-EG (2 MB)
+* 3D Graphics Performance: N/A
+* Keyboard/Mouse: Standard PC-compatible PS/2 interface
+* OS: HP-UX 10.20
+* Desktop Environment: HP VUE or CDE
+* Exhibitor: JP

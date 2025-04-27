@@ -1,0 +1,39 @@
+Sun Ultra 80
+============
+
+This Sun Ultra 80 is a high-end 64-bit multi-processor UNIX workstation
+from 1999.
+
+This is the top of Sun's workstation line-up from the late 1990's, and can take
+up to four UltraSPARC-II CPU modules. In this machine, we have three (the fourth
+is not working and has been removed). This model was replaced by the Ultra 45 in
+2006 (which was the last SPARC workstation Sun ever made).
+
+Inside, there are 16x 144-pin DIMM slots which take ECC SDRAM. The maximum
+capacity is 4GB. Unfortunately, half the DIMM slots are on a riser board which
+is supported on a plastic frame (as are the CPUs) and this plastic is now
+incredibly prone to cracking. I really hope it surives the journey as that
+plastic is carrying quite a lot of weight. I much prefer the interior design of
+the HP Visualize C3000 (which would have been a direct competitor), as that has
+all-metal construction.
+
+This example is fitted with a 2D graphics card, and the stickers on the case
+indicate it came from Oxford University Computing Laboratory. I like to think it
+was used for C programming and maybe some mathematical modelling in MATLAB.
+
+This machine would have shipped with Sun Solaris 7, which was the first 64-bit
+version of Solaris and is what I have installed. Solaris 7 came with either
+OpenWindows or the Common Desktop Environment (CDE). It is also supported by
+Solaris 8, 9 and 10.
+
+* Processor: 3x Sun UltraSPARC-II at 450 MHz
+* Memory: 3 GB (4 GB max)
+* Chipset: Sun Ultra80
+* Expansion: 2x UPA; 1x 64-bit/66 MHz PCI; 2x 64-bit/33 MHz PCI; 1x 32-bit/33 MHz PCI
+* Hard Drive Fitted: 9 GB Ultra Wide SCSI
+* Graphics: Sun PGX32 (8 MB)
+* 3D Graphics Performance: N/A
+* Keyboard/Mouse: Sun proprietary bus
+* OS: Solaris 7
+* Desktop Environment: Sun OpenWindows or Common Desktop Environment (CDE)
+* Exhibitor: JP
